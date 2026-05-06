@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unknown - Elite Hacker Portfolio">
+    <title>Unknown | Elite Hacker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanline"></div>
+    <div class="noise"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="glitch" data-text="[UNKNOWN]">[UNKNOWN]</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                    <span class="terminal-title">unknown@terminal:~$</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">root@unknown:~$</span> <span id="typed-text"></span><span class="cursor">|</span></p>
+                    <p class="terminal-output" id="output"></p>
+                </div>
+            </div>
+            <h1 class="glitch-title" data-text="UNKNOWN">UNKNOWN</h1>
+            <p class="subtitle">Elite <span class="highlight">Hacker</span> | Security <span class="highlight">Researcher</span> | Ghost in the <span class="highlight">Machine</span></p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="matrix-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="bracket">[</span> About <span class="bracket">]</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="code-block">
+                        <span class="code-comment">// Who am I?</span><br>
+                        <span class="code-keyword">const</span> <span class="code-var">hacker</span> = {<br>
+                        &nbsp;&nbsp;<span class="code-property">name:</span> <span class="code-string">"Unknown"</span>,<br>
+                        &nbsp;&nbsp;<span class="code-property">identity:</span> <span class="code-string">"Classified"</span>,<br>
+                        &nbsp;&nbsp;<span class="code-property">location:</span> <span class="code-string">"Everywhere & Nowhere"</span>,<br>
+                        &nbsp;&nbsp;<span class="code-property">mission:</span> <span class="code-string">"Expose vulnerabilities, strengthen systems"</span>,<br>
+                        &nbsp;&nbsp;<span class="code-property">motto:</span> <span class="code-string">"Leave no trace, break no trust"</span><br>
+                        };
+                    </p>
+                    <p class="description">
+                        I am <strong>Unknown</strong>, a phantom in the digital realm. I navigate through firewalls,
+                        decrypt encrypted data, and penetrate the most secure networks. My expertise lies in
+                        ethical hacking, penetration testing, and vulnerability research. I work in the shadows
+                        to protect the light.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="1337">0</div>
+                        <div class="stat-label">Systems Breached</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="256">0</div>
+                        <div class="stat-label">Zero-Days Found</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">Success Rate %</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">Hours Active</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="bracket">[</span> Skills & Expertise <span class="bracket">]</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🛡️</div>
+                    <h3>Penetration Testing</h3>
+                    <p>Advanced exploitation techniques, social engineering, and network infiltration</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔐</div>
+                    <h3>Cryptography</h3>
+                    <p>Encryption algorithms, cryptanalysis, and secure communication protocols</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Reverse Engineering</h3>
+                    <p>Binary analysis, malware dissection, and vulnerability discovery</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Exploitation</h3>
+                    <p>SQL injection, XSS, CSRF, and modern web application security</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐧</div>
+                    <h3>System Administration</h3>
+                    <p>Linux/Unix mastery, network architecture, and server hardening</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 87%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <h3>OSINT & Reconnaissance</h3>
+                    <p>Information gathering, footprinting, and digital forensics</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 93%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="bracket">[</span> Projects <span class="bracket">]</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-status active">● ACTIVE</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3>Operation Ghost Protocol</h3>
+                    <p class="project-desc">Developed an advanced rootkit for penetration testing that operates at kernel level with complete stealth capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">C</span>
+                        <span class="tag">Assembly</span>
+                        <span class="tag">Kernel</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-status completed">● COMPLETED</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>CipherBreaker Suite</h3>
+                    <p class="project-desc">A comprehensive toolkit for cryptographic analysis and password cracking using distributed computing.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">CUDA</span>
+                        <span class="tag">Crypto</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-status active">● ACTIVE</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3>Shadow Network</h3>
+                    <p class="project-desc">Decentralized, encrypted communication platform for secure anonymous messaging and data transfer.</p>
+                    <div class="project-tags">
+                        <span class="tag">Go</span>
+                        <span class="tag">Blockchain</span>
+                        <span class="tag">P2P</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-status completed">● COMPLETED</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>VulnScanner X</h3>
+                    <p class="project-desc">Automated vulnerability scanner with AI-powered exploit generation and network mapping capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">ML</span>
+                        <span class="tag">Nmap</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="bracket">[</span> Establish Connection <span class="bracket">]</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-warning">
+                        <span class="warning-icon">⚠️</span>
+                        All communications are encrypted end-to-end. Leave a trace, and I'll find you.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="method-icon">📧</span>
+                            <span class="method-label">Secure Email:</span>
+                            <a href="mailto:unknown@darkweb.onion">unknown@darkweb.onion</a>
+                        </div>
+                        <div class="contact-method">
+                            <span class="method-icon">🔑</span>
+                            <span class="method-label">PGP Key:</span>
+                            <code>0x1337DEADBEEF</code>
+                        </div>
+                        <div class="contact-method">
+                            <span class="method-icon">💬</span>
+                            <span class="method-label">IRC:</span>
+                            <code>unknown@irc.darknet.org</code>
+                        </div>
+                        <div class="contact-method">
+                            <span class="method-icon">🌐</span>
+                            <span class="method-label">Tor:</span>
+                            <code>unknown7x8d9k2a.onion</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-button red"></span>
+                        <span class="terminal-button yellow"></span>
+                        <span class="terminal-button green"></span>
+                        <span class="terminal-title">encrypted-message.sh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label><span class="prompt">root@unknown:~$</span> echo $NAME</label>
+                                <input type="text" name="name" placeholder="Your alias..." required>
+                            </div>
+                            <div class="form-group">
+                                <label><span class="prompt">root@unknown:~$</span> echo $EMAIL</label>
+                                <input type="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label><span class="prompt">root@unknown:~$</span> cat message.txt</label>
+                                <textarea name="message" rows="5" placeholder="Your encrypted message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <span>./send_encrypted.sh</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <span class="glitch-small" data-text="[UNKNOWN]">[UNKNOWN]</span> © 2026 |
+                <span class="footer-tagline">I am the ghost in the machine</span>
+            </p>
+            <p class="footer-quote">"In a world of locked doors, I am the master key"</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
